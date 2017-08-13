@@ -69,6 +69,6 @@ Optional arguments include:
   epochs compared to LOCK_FREE. However, it can still take less wall clock time since it
   avoids the overhead of using atomic additions.
   
-  # Note
-  This code was intened for demonstration so it does not save the parameters.
+# Note
+This code was intened for demonstration so it does not save the parameters.
   
