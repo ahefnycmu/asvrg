@@ -36,6 +36,7 @@ To run use:
 bin/opt/train_lr --train_file=<binray training file> <optional arguments>
 ```
 Optional arguments include:
+
 --num_threads=<integer> (default 1)
 
 --solver=<sgd/svrg> (default sgd)
