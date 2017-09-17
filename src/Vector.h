@@ -72,7 +72,7 @@ class SparseVec {
   }
   
   void addElement(Index index, double value) {
-    ASSERT(map_.size() > 0 || map_.back().first < index,
+    ASSERT(map_.size() == 0 || map_.back().first < index,
            "Out of order insertion");
     map_.push_back(std::pair<Index, double>(index, value));
   }

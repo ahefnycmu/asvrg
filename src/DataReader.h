@@ -12,10 +12,6 @@
 template<class T>
 class DataReader {
  public:
-  virtual ~DataReader() {
-    if(!closed_) {close();}
-  }
-
   virtual bool init() {
     if(!closed_) {close();}
     bool init_successful = doInit();
